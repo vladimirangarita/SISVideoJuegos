@@ -23,14 +23,15 @@ namespace SISVideoJuegos
         }
         private void darformato()
         {
-            dtgClientesHistorial.Columns[0].Visible = false;
+            //dtgClientesHistorial.Columns[0].Visible = false;
             dtgClientesHistorial.Columns[1].Visible = false;
-            dtgClientesHistorial.Columns[2].HeaderText = "Cedula";
-            dtgClientesHistorial.Columns[3].HeaderText = "Nombre";
-            dtgClientesHistorial.Columns[4].HeaderText = "Apellido";
-            dtgClientesHistorial.Columns[5].HeaderText = "Video juego";
-            dtgClientesHistorial.Columns[6].HeaderText = "Tipo de video juego";
-            dtgClientesHistorial.Columns[7].HeaderText = "N° de Alquileres";
+            dtgClientesHistorial.Columns[2].Visible = false;
+            dtgClientesHistorial.Columns[3].HeaderText = "Cedula";
+            dtgClientesHistorial.Columns[4].HeaderText = "Nombre";
+            dtgClientesHistorial.Columns[5].HeaderText = "Apellido";
+            dtgClientesHistorial.Columns[6].HeaderText = "Video juego";
+            dtgClientesHistorial.Columns[7].HeaderText = "Tipo de video juego";
+            dtgClientesHistorial.Columns[8].HeaderText = "N° de Alquileres";
             dtgClientesHistorial.Columns[0].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dtgClientesHistorial.Columns[1].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             dtgClientesHistorial.Columns[2].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
